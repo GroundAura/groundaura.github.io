@@ -1,0 +1,41 @@
+/* Credit: https://github.com/squidfunk/mkdocs-material/discussions/3535 */
+
+.headerlink {
+	--permalink-size: 16px; /* for font-relative sizes, 0.6em is a good choice */
+	--permalink-spacing: 4px;
+
+	width: calc(var(--permalink-size) + var(--permalink-spacing));
+	height: var(--permalink-size);
+	vertical-align: middle;
+	background-color: var(--md-default-fg-color--lighter);
+	background-size: var(--permalink-size);
+	mask-size: var(--permalink-size);
+	-webkit-mask-size: var(--permalink-size);
+	mask-repeat: no-repeat;
+	-webkit-mask-repeat: no-repeat;
+	visibility: visible;
+	mask-image: url('../assets/github-permalink.svg');
+	-webkit-mask-image: url('../assets/github-permalink.svg');
+}
+
+[id]:target .headerlink {
+	background-color: var(--md-typeset-a-color);
+}
+
+.headerlink:hover {
+	background-color: var(--md-accent-fg-color) !important;
+}
+
+@media screen and (min-width: 76.25em) {
+	h1, h2, h3, h4, h5, h6 {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		column-gap: 0.2em; /* fixes spaces in titles */
+	}
+
+	.headerlink {
+		order: -1;
+		margin-left: calc(var(--permalink-size) * -1 - var(--permalink-spacing)) !important;
+	}
+}

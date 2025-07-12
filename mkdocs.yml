@@ -1,0 +1,105 @@
+site_name: GroundAura
+site_url: https://groundaura.github.io
+docs_dir: docs
+site_dir: site
+
+copyright: "&copy; 2025 GroundAura"
+
+extra:
+  social:
+    - name: Bluesky
+      icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/groundaura.bsky.social
+    - name: GitHub
+      icon: fontawesome/brands/github
+      link: https://github.com/groundaura
+    - name: Ko-fi
+      icon: simple/kofi
+      link: https://ko-fi.com/groundaura
+    - name: Linktree
+      icon: simple/linktree
+      link: https://linktr.ee/groundaura
+    - name: Nexus Mods
+      icon: simple/nexusmods
+      link: https://next.nexusmods.com/profile/GroundAura
+    #- name: Patreon
+    #  icon: fontawesome/brands/patreon
+    #  link: https://patreon.com/groundaura
+    - name: Twitch
+      icon: fontawesome/brands/twitch
+      link: https://twitch.tv/groundaura
+    - name: Twitter
+      icon: fontawesome/brands/twitter
+      link: https://twitter.com/groundaura
+    - name: YouTube
+      icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@groundaura
+
+extra_css:
+  #- extra_css/extra.css
+  - extra_css/copyable-text.css
+  - extra_css/github-permalink-style.css
+  #- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
+
+#extra_javascript:
+#  - extra_js/extra.js
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: ''
+      permalink_title: Anchor Link
+  - tables
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  #- extensions.clipboard_extension
+
+theme:
+  name: material
+  #font:
+  #  text: Roboto
+  #  code: Roboto Mono
+  icon:
+    logo: fontawesome/solid/tree
+  #favicon: 
+  features:
+    - navigation.footer
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Set Theme to Light Mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Set Theme to Dark Mode
+      primary: green
+      accent: deep purple

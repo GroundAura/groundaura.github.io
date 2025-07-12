@@ -14,8 +14,8 @@
 	mask-repeat: no-repeat;
 	-webkit-mask-repeat: no-repeat;
 	visibility: visible;
-	mask-image: url('../assets/github-permalink.svg');
-	-webkit-mask-image: url('../assets/github-permalink.svg');
+	mask-image: url('../images/github-permalink.svg');
+	-webkit-mask-image: url('../images/github-permalink.svg');
 }
 
 [id]:target .headerlink {

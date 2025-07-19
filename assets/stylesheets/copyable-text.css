@@ -1,0 +1,17 @@
+.md-typeset [data-clipboard-text] {
+  cursor: pointer;
+}
+
+.md-typeset [data-clipboard-text]:hover {
+  background-color: var(--md-accent-fg-color) !important;
+}
+
+/*.copyable-text {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.copyable-text i {
+  margin-left: 5px;
+}*/

@@ -6,12 +6,6 @@
   background-color: var(--md-accent-fg-color) !important;
 }
 
-/*.copyable-text {
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
+.md-typeset [title] {
+  cursor: help;
 }
-
-.copyable-text i {
-  margin-left: 5px;
-}*/

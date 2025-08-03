@@ -1,0 +1,1241 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://groundaura.github.io/streaming/commands/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>Commands - GroundAura</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/extra-hover.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/github-permalink-style.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#commands" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="GroundAura" class="md-header__button md-logo" aria-label="GroundAura" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M224-32c7 0 13.7 3.1 18.3 8.5l136 160c6.1 7.1 7.4 17.1 3.5 25.6S369.4 176 360 176h-24.9l75.2 88.5c6.1 7.1 7.4 17.1 3.5 25.6S401.4 304 392 304h-38.5l88.8 104.5c6.1 7.1 7.4 17.1 3.5 25.6S433.4 448 424 448H256v64c0 17.7-14.3 32-32 32s-32-14.3-32-32v-64H24c-9.4 0-17.9-5.4-21.8-13.9s-2.6-18.5 3.5-25.6L94.5 304H56c-9.4 0-17.9-5.4-21.8-13.9s-2.6-18.5 3.5-25.6l75.2-88.5H88c-9.4 0-17.9-5.4-21.8-13.9s-2.6-18.5 3.5-25.6l136-160C210.3-28.9 217-32 224-32"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GroundAura
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Commands
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Set Theme to Light Mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Set Theme to Light Mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Set Theme to Dark Mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Set Theme to Dark Mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GroundAura" class="md-nav__button md-logo" aria-label="GroundAura" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M224-32c7 0 13.7 3.1 18.3 8.5l136 160c6.1 7.1 7.4 17.1 3.5 25.6S369.4 176 360 176h-24.9l75.2 88.5c6.1 7.1 7.4 17.1 3.5 25.6S401.4 304 392 304h-38.5l88.8 104.5c6.1 7.1 7.4 17.1 3.5 25.6S433.4 448 424 448H256v64c0 17.7-14.3 32-32 32s-32-14.3-32-32v-64H24c-9.4 0-17.9-5.4-21.8-13.9s-2.6-18.5 3.5-25.6L94.5 304H56c-9.4 0-17.9-5.4-21.8-13.9s-2.6-18.5 3.5-25.6l75.2-88.5H88c-9.4 0-17.9-5.4-21.8-13.9s-2.6-18.5 3.5-25.6l136-160C210.3-28.9 217-32 224-32"/></svg>
+
+    </a>
+    GroundAura
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Welcome to GroundAura's Site
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Streaming
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Streaming
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Streaming
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Commands
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commands
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#interaction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interaction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#just-for-fun" class="md-nav__link">
+    <span class="md-ellipsis">
+      Just for Fun
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quotes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#socials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Socials
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stream-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stream Info
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewer-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewer Info
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moderation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Moderation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#interaction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interaction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#just-for-fun" class="md-nav__link">
+    <span class="md-ellipsis">
+      Just for Fun
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quotes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#socials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Socials
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stream-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stream Info
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewer-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewer Info
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moderation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Moderation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="commands">Commands<a class="headerlink" href="#commands" title="Anchor Link"></a></h1>
+<p>Here's a list of all the chat commands you can use on my Twitch stream. Click on any <code data-clipboard-text="!commands">!commands</code> to copy them to your clipboard.</p>
+<p>I use <a href="https://streamer.bot">Streamer.bot</a>, <a href="https://streamelements.com">StreamElements</a>, <a href="https://ko-fi.com/ko-fi-for-streamers">Ko-fi Stream Alerts</a>, <a href="https://blam.cam">LurkBait</a>, and a <a href="https://dev.twitch.tv/docs/chat/">chatbot account</a> to manage my chat commands.</p>
+<p>StreamElements commands can also be found on my <a href="https://streamelements.com/groundaura/commands">StreamElements profile page</a>.</p>
+<hr />
+<h2 id="interaction">Interaction<a class="headerlink" href="#interaction" title="Anchor Link"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Command(s)</th>
+<th>Description</th>
+<th>Restrictions</th>
+<th>Bot Reply</th>
+<th>Bot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bonk</td>
+<td><code data-clipboard-text="!bonk ">!bonk &lt;targetUser&gt;</code></td>
+<td>Lets you give a virtual bonk to another user.</td>
+<td></td>
+<td><em>&lt;targetUser&gt;</em> is given a <em>Bonk</em> on the head by <em>&lt;user&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Hug</td>
+<td><code data-clipboard-text="!hug ">!hug &lt;targetUser&gt;</code></td>
+<td>Lets you give a virtual hug to another user.</td>
+<td></td>
+<td><em>&lt;user&gt;</em> gives <em>&lt;targetUser&gt;</em> a great big <em>hugg</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Lurk</td>
+<td><code data-clipboard-text="!lurk">!lurk</code></td>
+<td>Shares that you're lurking in the stream.</td>
+<td></td>
+<td>Thanks for being here! Enjoy your <em>Lurk</em> <em>&lt;user&gt;</em> <em>&lt;3</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Poke</td>
+<td><code data-clipboard-text="!poke ">!poke &lt;targetUser&gt;</code></td>
+<td>Lets you give a virtual poke to another user.</td>
+<td></td>
+<td><em>&lt;targetUser&gt;</em> has been <em>poked</em> by <em>&lt;user&gt;</em> Such violence...</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Say Hi</td>
+<td><code data-clipboard-text="!hi">!hi</code>, <code data-clipboard-text="!arrive">!arrive</code>, <code data-clipboard-text="!checkin">!checkin</code>, <code data-clipboard-text="!cookie">!cookie</code></td>
+<td>Shares that you're saying hi and provides you with a complimentary cookie (1/stream).</td>
+<td></td>
+<td>Thanks for saying <em>hiii</em> <em>&lt;user&gt;</em> Here's your complementary cookie <em>GivePLZ</em> 🍪</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Tuck</td>
+<td><code data-clipboard-text="!tuck ">!tuck &lt;targetUser&gt;</code>, <code data-clipboard-text="!tuckin ">!tuckin &lt;targetUser&gt;</code></td>
+<td>Lets you virtually tuck-in another user.</td>
+<td></td>
+<td><em>&lt;user&gt;</em> tucks <em>&lt;targetUser&gt;</em> into bed <em>tuckk</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Unlurk</td>
+<td><code data-clipboard-text="!unlurk">!unlurk</code></td>
+<td>Shares that you are in the stream, but no longer lurking.</td>
+<td></td>
+<td>Welcome back <em>&lt;user&gt;</em> <em>&lt;3</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="just-for-fun">Just for Fun<a class="headerlink" href="#just-for-fun" title="Anchor Link"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Command(s)</th>
+<th>Description</th>
+<th>Restrictions</th>
+<th>Bot Reply</th>
+<th>Bot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fish</td>
+<td><code data-clipboard-text="!fish">!fish</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="Per User Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M224 8a120 120 0 1 1 0 240 120 120 0 1 1 0-240m-29.7 296h59.4c3.9 0 7.9.1 11.8.4-16.2 28.2-25.5 60.8-25.5 95.6 0 41.8 13.4 80.5 36 112H45.7C29.3 512 16 498.7 16 482.3 16 383.8 95.8 304 194.3 304m93.7 96a144 144 0 1 1 288 0 144 144 0 1 1-288 0m144-80c-8.8 0-16 7.2-16 16v64c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32v-48c0-8.8-7.2-16-16-16"/></svg></span> 120s (2m)</td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>Flip Coin</td>
+<td><code data-clipboard-text="!flipcoin">!flipcoin</code></td>
+<td>Flips a coin and tells you the result.</td>
+<td></td>
+<td><em>&lt;user&gt;</em> flipped a coin...and it landed on...<em>&lt;result&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quotes">Quotes<a class="headerlink" href="#quotes" title="Anchor Link"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Command(s)</th>
+<th>Description</th>
+<th>Restrictions</th>
+<th>Bot Reply</th>
+<th>Bot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Get Quote (By Id)</td>
+<td><code data-clipboard-text="!quote ">!quote &lt;id&gt;</code>,  <code data-clipboard-text="!quote get ">!quote get &lt;id&gt;</code>, <code data-clipboard-text="!quoteget ">!quoteget &lt;id&gt;</code>,  <code data-clipboard-text="!getquote ">!getquote &lt;id&gt;</code></td>
+<td>Attempts to get a quote from the quote list with the given Id.</td>
+<td><span class="twemoji" title="Enabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 5s</td>
+<td>Quote #<em>&lt;id&gt;</em>: " <em>&lt;quote&gt;</em> " - <em>&lt;user&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Get Quote (Latest)</td>
+<td><code data-clipboard-text="!quote latest">!quote latest</code>,  <code data-clipboard-text="!quote get latest">!quote get latest</code>, <code data-clipboard-text="!quoteget latest">!quoteget latest</code>,  <code data-clipboard-text="!getquote latest">!getquote latest</code></td>
+<td>Gets the latest added quote from the quote list.</td>
+<td><span class="twemoji" title="Enabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 5s</td>
+<td>Quote #<em>&lt;id&gt;</em>: " <em>&lt;quote&gt;</em> " - <em>&lt;user&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Get Quote (By Term)</td>
+<td><code data-clipboard-text="!quote ">!quote &lt;term&gt;</code>,  <code data-clipboard-text="!quote search ">!quote search &lt;term&gt;</code>, <code data-clipboard-text="!quotesearch ">!quotesearch &lt;term&gt;</code>,  <code data-clipboard-text="!searchquote ">!searchquote &lt;term&gt;</code></td>
+<td>Attempts to get a quote from the quote list that includes the given search term.</td>
+<td><span class="twemoji" title="Enabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 5s</td>
+<td>Quote #<em>&lt;id&gt;</em>: " <em>&lt;quote&gt;</em> " - <em>&lt;user&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Get Quote (Random)</td>
+<td><code data-clipboard-text="!quote">!quote</code>, <code data-clipboard-text="!quote random">!quote random</code>, <code data-clipboard-text="!quoterandom">!quoterandom</code>, <code data-clipboard-text="!randquote">!randquote</code></td>
+<td>Gets a random quote from the quote list.</td>
+<td><span class="twemoji" title="Enabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 5s</td>
+<td>Quote #<em>&lt;id&gt;</em>: " <em>&lt;quote&gt;</em> " - <em>&lt;user&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Add Quote</td>
+<td><code data-clipboard-text="!quote add ">!quote add &lt;user&gt; &lt;quote&gt;</code>, <code data-clipboard-text="!quoteadd ">!quoteadd &lt;user&gt; &lt;quote&gt;</code>, <code data-clipboard-text="!addquote ">!addquote &lt;user&gt; &lt;quote&gt;</code></td>
+<td>Adds a quote to the quote list.</td>
+<td><span class="twemoji" title="Enabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Moderators only">Mods</abbr>, <abbr title="Twitch VIPs only">VIPs</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 5s</td>
+<td>Added Quote #<em>&lt;id&gt;</em>: " <em>&lt;quote&gt;</em> " - <em>&lt;user&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Edit Quote</td>
+<td><code data-clipboard-text="!quote edit ">!quote edit &lt;id&gt; &lt;quote&gt;</code>, <code data-clipboard-text="!quoteedit ">!quoteedit &lt;id&gt; &lt;quote&gt;</code>, <code data-clipboard-text="!editquote ">!editquote &lt;id&gt; &lt;quote&gt;</code></td>
+<td>Lets you edit a quote in the quote list. Allows you to fix formatting of the quote text. You can type <code>latest</code> instead of a specific id to get the latest quote.</td>
+<td><span class="twemoji" title="Enabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Moderators only">Mods</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 5s</td>
+<td>Quote #<em>&lt;id&gt;</em> Updated: " <em>&lt;quote&gt;</em> " - <em>&lt;user&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Hide Quote</td>
+<td><code data-clipboard-text="!quote hide ">!quote hide &lt;id&gt;</code>, <code data-clipboard-text="!quotehide ">!quotehide &lt;id&gt;</code>, <code data-clipboard-text="!hidequote ">!hidequote &lt;id&gt;</code></td>
+<td>Flags a quote from the quote list to be hidden, so it no longer appears when getting quotes. A soft delete for moderation purposes. You can type <code>latest</code> instead of a specific id to get the latest quote.</td>
+<td><span class="twemoji" title="Enabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Moderators only">Mods</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 5s</td>
+<td>Quote #<em>&lt;id&gt;</em> hidden.</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Delete Quote</td>
+<td><code data-clipboard-text="!quote delete ">!quote delete &lt;id&gt;</code>, <code data-clipboard-text="!quotedelete ">!quotedelete &lt;id&gt;</code>, <code data-clipboard-text="!delquote ">!delquote &lt;id&gt;</code></td>
+<td>Permanently removes a quote from the quote list. You can type <code>latest</code> instead of a specific id to get the latest quote.</td>
+<td><span class="twemoji" title="Enabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Streamer (or Super Moderators) only">Admins</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 5s</td>
+<td>Quote #<em>&lt;id&gt;</em> removed.</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td><del>Quote List</del></td>
+<td><code data-clipboard-text="!quotes">!quotes</code>, <code data-clipboard-text="!quotelist">!quotelist</code></td>
+<td>Posts a link to a list of the streamer's quotes.</td>
+<td><span class="twemoji" title="Disabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128zm192 128c0-106-86-192-192-192H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192m-384 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr></td>
+<td>Public quote list is still <abbr title="Command is still a Work In Progress">WIP</abbr></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="socials">Socials<a class="headerlink" href="#socials" title="Anchor Link"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Command(s)</th>
+<th>Description</th>
+<th>Restrictions</th>
+<th>Bot Reply</th>
+<th>Bot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Link All Socials</td>
+<td><code data-clipboard-text="!socials">!socials</code>, <code data-clipboard-text="!links">!links</code>, <code data-clipboard-text="!linktree">!linktree</code></td>
+<td>Posts a link to the streamer's Linktr.ee page.</td>
+<td></td>
+<td>Here are my linkies! :D <a href="https://linktr.ee/groundaura">https://linktr.ee/groundaura</a></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Link Bluesky</td>
+<td><code data-clipboard-text="!bluesky">!bluesky</code>, <code data-clipboard-text="!bsky">!bsky</code></td>
+<td>Posts a link to the streamer's Bluesky account.</td>
+<td></td>
+<td>Follow me on Bluesky! <a href="https://bsky.app/profile/groundaura.bsky.social">https://bsky.app/profile/groundaura.bsky.social</a></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td><del>Link Discord</del></td>
+<td><code>!discord</code>, <code>!server</code></td>
+<td>Posts a link to the streamer's Discord server.</td>
+<td><span class="twemoji" title="Disabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128zm192 128c0-106-86-192-192-192H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192m-384 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160"/></svg></span> <abbr title="I am not currently using this command">Unused</abbr></td>
+<td>Join the Discord! (we have cookies) <em>&lt;link&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Link GitHub</td>
+<td><code data-clipboard-text="!github">!github</code>, <code data-clipboard-text="!gh">!gh</code></td>
+<td>Posts a link to the streamer's GitHub account.</td>
+<td></td>
+<td>Check out my work on GitHub! <a href="https://github.com/GroundAura">https://github.com/GroundAura</a></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>KofiStreamBot Link</td>
+<td><code data-clipboard-text="!kofi">!kofi</code>, <code data-clipboard-text="!ko-fi">!ko-fi</code></td>
+<td>Posts a link to the streamer's Ko-fi page.</td>
+<td></td>
+<td>Ko-fi link is: <a href="https://ko-fi.com/groundaura?ref=Twitch">https://ko-fi.com/groundaura?ref=Twitch</a></td>
+<td>Ko-fi Stream Alerts (<a href="https://www.twitch.tv/kofistreambot">@KofiStreamBot</a>)</td>
+</tr>
+<tr>
+<td>Link Ko-fi</td>
+<td><code data-clipboard-text="!donate">!donate</code>, <code data-clipboard-text="!tip">!tip</code></td>
+<td>Posts a link to the streamer's Ko-fi page.</td>
+<td></td>
+<td>Support me on Ko-fi! <a href="https://ko-fi.com/groundaura">https://ko-fi.com/groundaura</a></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Link Nexus</td>
+<td><code data-clipboard-text="!nexus">!nexus</code>, <code data-clipboard-text="!nexusmods">!nexusmods</code></td>
+<td>Posts a link to the streamer's Nexus <abbr title="Moderators only">Mods</abbr> account.</td>
+<td></td>
+<td>Check out my work on Nexus! <a href="https://next.nexusmods.com/profile/GroundAura">https://next.nexusmods.com/profile/GroundAura</a></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td><del>Link Patreon</del></td>
+<td><code>!patreon</code></td>
+<td>Posts a link to the streamer's Patreon page.</td>
+<td><span class="twemoji" title="Disabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128zm192 128c0-106-86-192-192-192H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192m-384 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160"/></svg></span> <abbr title="I am not currently using this command">Unused</abbr></td>
+<td>Support me on Patreon! <a href="https://www.patreon.com/c/groundaura">https://www.patreon.com/c/groundaura</a></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Link Twitch</td>
+<td><code data-clipboard-text="!twitch">!twitch</code>, <code data-clipboard-text="!ttv">!ttv</code></td>
+<td>Posts a link to the streamer's Twitch account.</td>
+<td></td>
+<td>Follow me on Twitch! <a href="https://www.twitch.tv/groundaura">https://www.twitch.tv/groundaura</a> (you're already here silly)</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Link Twitter</td>
+<td><code data-clipboard-text="!twitter">!twitter</code>, <code data-clipboard-text="!x">!x</code></td>
+<td>Posts a link to the streamer's Twitter/X account.</td>
+<td></td>
+<td>Follow me on Twitter! <a href="https://x.com/GroundAura">https://x.com/GroundAura</a></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Link YouTube</td>
+<td><code data-clipboard-text="!youtube">!youtube</code>, <code data-clipboard-text="!yt">!yt</code></td>
+<td>Posts a link to the streamer's YouTube account.</td>
+<td></td>
+<td>Subscribe on YouTube! <a href="https://www.youtube.com/@groundaura">https://www.youtube.com/@groundaura</a></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stream-info">Stream Info<a class="headerlink" href="#stream-info" title="Anchor Link"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Command(s)</th>
+<th>Description</th>
+<th>Restrictions</th>
+<th>Bot Reply</th>
+<th>Bot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(disabled) <del>About Me</del></td>
+<td><code>!aboutme</code>, <code>!about</code>, <code>!aura</code>, <code>!streamer</code></td>
+<td>Shares some info about the streamer.</td>
+<td><span class="twemoji" title="Disabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128zm192 128c0-106-86-192-192-192H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192m-384 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr></td>
+<td></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Commands</td>
+<td><code data-clipboard-text="!commands">!commands</code>, <code data-clipboard-text="!cmds">!cmds</code></td>
+<td>Posts a link to a list of all stream commands.</td>
+<td></td>
+<td>All commands: <a href="https://groundaura.github.io/streaming/commands">https://groundaura.github.io/streaming/commands</a></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Commands (Stream Elements)</td>
+<td><code data-clipboard-text="!secmds">!secmds</code>, <code data-clipboard-text="!secommands">!secommands</code>, <code data-clipboard-text="!streamelementscmds">!streamelementscmds</code></td>
+<td>Posts a link to StreamElements commands.</td>
+<td></td>
+<td>You can find a list of all Commands here <a href="https://StreamElements.com/groundaura/commands">https://StreamElements.com/groundaura/commands</a></td>
+<td>StreamElements (<a href="https://www.twitch.tv/streamelements">@StreamElements</a>)</td>
+</tr>
+<tr>
+<td>Extensions</td>
+<td><code data-clipboard-text="!extensions">!extensions</code></td>
+<td>Shares some info about browser extensions to use with Twitch.</td>
+<td></td>
+<td>If you're on PC, you can use some of Aura's recommended browser extensions to improve your viewing experience.<br><br>You can view additional emotes using 7TV (<a href="https://7tv.app">https://7tv.app</a>).<br><br>You can view others' pronouns and set your own using Twitch Chat Pronouns (<a href="https://pr.alejo.io">https://pr.alejo.io</a>).<br><br>You can customize and enhance your Twitch experience further using 7TV, FrankerFaceZ (<a href="https://www.frankerfacez.com">https://www.frankerfacez.com</a>), and Previews (<a href="https://previews-app.com">https://previews-app.com</a>) extensions.</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Fishing Dex</td>
+<td><code data-clipboard-text="!fishdex">!fishdex</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 600s (10m)</td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>Fishing Help</td>
+<td><code data-clipboard-text="!fishhelp">!fishhelp</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr></td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>Fishing Leaderboard</td>
+<td><code data-clipboard-text="!fishboard">!fishboard</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="Global Cooldown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> 300s (5m)</td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td><del>Modlist</del></td>
+<td><code>!modlist</code>, <code>!mods</code></td>
+<td>Posts a link to what mods the streamer is using in the current game.</td>
+<td><span class="twemoji" title="Disabled"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128zm192 128c0-106-86-192-192-192H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192m-384 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160"/></svg></span> <abbr title="Command is still a Work In Progress">WIP</abbr></td>
+<td></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Streamer Pronouns</td>
+<td><code data-clipboard-text="!pronouns">!pronouns</code></td>
+<td>Tells you the streamer's pronouns.</td>
+<td></td>
+<td>Aura uses he/him pronouns.</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Time</td>
+<td><code data-clipboard-text="!time">!time</code>, <code data-clipboard-text="!auratime">!auratime</code></td>
+<td>Tells you what time it is for the streamer.</td>
+<td></td>
+<td>The time for GroundAura is <em>&lt;time&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Up Time</td>
+<td><code data-clipboard-text="!uptime">!uptime</code></td>
+<td>Tells you how long stream has being live for.</td>
+<td></td>
+<td>groundaura has been streaming for <em>&lt;time&gt;</em></td>
+<td>StreamElements (<a href="https://www.twitch.tv/streamelements">@StreamElements</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="viewer-info">Viewer Info<a class="headerlink" href="#viewer-info" title="Anchor Link"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Command(s)</th>
+<th>Description</th>
+<th>Restrictions</th>
+<th>Bot Reply</th>
+<th>Bot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account Age</td>
+<td><code data-clipboard-text="!accountage">!accountage</code>, <code data-clipboard-text="!accage">!accage</code>, <code data-clipboard-text="!created">!created</code></td>
+<td>Tells you how long ago your account (or a target user's) was created.</td>
+<td></td>
+<td><em>&lt;user|targetUser&gt;</em> was born <em>&lt;time&gt;</em> ago</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Cookie Count</td>
+<td><code data-clipboard-text="!cookies">!cookies</code>, <code data-clipboard-text="!cookiejar">!cookiejar</code></td>
+<td>Tells you how many times you (or a target user) have said <code data-clipboard-text="!hi">!hi</code> and received their complementary cookie.</td>
+<td></td>
+<td><em>&lt;user|targetUser&gt;</em> has <em>&lt;count&gt;</em> <em>Cookies</em> in their jar!</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Fishing Stats</td>
+<td><code data-clipboard-text="!fishstats">!fishstats</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr></td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>Follow Age</td>
+<td><code data-clipboard-text="!followage">!followage</code>, <code data-clipboard-text="!howlong">!howlong</code></td>
+<td>Tells you how long you (or a target user) have been following.</td>
+<td></td>
+<td><em>&lt;user|targetUser&gt;</em> has been following for <em>&lt;time&gt;</em></td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+<tr>
+<td>Watch Time</td>
+<td><code data-clipboard-text="!watchtime">!watchtime</code>, <code data-clipboard-text="!viewtime">!viewtime</code></td>
+<td>Tells you how much time you (or a target user) has spent watching stream.</td>
+<td></td>
+<td><em>&lt;user|targetUser&gt;</em> has spent <em>&lt;time&gt;</em> watching groundaura</td>
+<td>StreamElements (<a href="https://www.twitch.tv/streamelements">@StreamElements</a>)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="moderation">Moderation<a class="headerlink" href="#moderation" title="Anchor Link"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Command(s)</th>
+<th>Description</th>
+<th>Restrictions</th>
+<th>Bot Reply</th>
+<th>Bot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fish (for User)</td>
+<td><code data-clipboard-text="!fish ">!fish &lt;targetUser&gt;</code>, <code data-clipboard-text="!fish ">!fish &lt;targetUser&gt; x&lt;amount&gt;</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Moderators only">Mods</abbr></td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>LurkBait Boost Rare Fish</td>
+<td><code data-clipboard-text="!fishboost">!fishboost</code>, <code data-clipboard-text="!fishboost on">!fishboost on</code>, <code data-clipboard-text="!fishboost off">!fishboost off</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Streamer (or Super Moderators) only">Admins</abbr></td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>LurkBait Delete User</td>
+<td><code data-clipboard-text="!deletefisher ">!deletefisher &lt;targetUser&gt;</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Streamer (or Super Moderators) only">Admins</abbr></td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>LurkBait Mute</td>
+<td><code data-clipboard-text="!mute">!mute</code>, <code data-clipboard-text="!mute on">!mute on</code>, <code data-clipboard-text="!mute off">!mute off</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Streamer (or Super Moderators) only">Admins</abbr></td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>LurkBait Reconnect</td>
+<td><code data-clipboard-text="!reconnect">!reconnect</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Moderators only">Mods</abbr></td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>LurkBait Reset Leaderboard</td>
+<td><code data-clipboard-text="!resetleaderboard">!resetleaderboard</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Streamer (or Super Moderators) only">Admins</abbr></td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>LurkBait Switch Leaderboard</td>
+<td><code data-clipboard-text="!switchleaderboard">!switchleaderboard</code>, <code data-clipboard-text="!switchleaderboard alltime">!switchleaderboard alltime</code>, <code data-clipboard-text="!switchleaderboard current">!switchleaderboard current</code></td>
+<td></td>
+<td><span class="twemoji" title="Requires LurkBait"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3l-93.1-54.3c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8zM384 256a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg></span> <abbr title="LurkBait fishing minigame must be running (might be disabled when playing some resource intensive games)">LurkBait Minigame</abbr><br><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Streamer (or Super Moderators) only">Admins</abbr></td>
+<td></td>
+<td>LurkBait (<a href="https://www.twitch.tv/groundaura">@GroundAura</a>)</td>
+</tr>
+<tr>
+<td>Streamer.bot Test</td>
+<td><code data-clipboard-text="!streamerbot">!streamerbot</code></td>
+<td>Tests whether Streamer.bot is connected and working.</td>
+<td><span class="twemoji" title="User Restrictions"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M128 96v64h128V96c0-35.3-28.7-64-64-64s-64 28.7-64 64m-64 64V96c0-70.7 57.3-128 128-128S320 25.3 320 96v64c35.3 0 64 28.7 64 64v224c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64"/></svg></span> <abbr title="Moderators only">Mods</abbr>, <abbr title="Twitch VIPs only">VIPs</abbr></td>
+<td><a href="https://streamer.bot">Streamer.bot</a> is connected!</td>
+<td>Streamer.bot (<a href="https://www.twitch.tv/auragolem">@auragolem</a>)</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Streaming">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Streaming
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2025 GroundAura
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://bsky.app/profile/groundaura.bsky.social" target="_blank" rel="noopener" title="Bluesky" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3 3.4.4 6.7.9 10 1.3M288 227.1c-26.1-50.7-97.1-145.2-163.1-191.8C61.6-9.4 37.5-1.7 21.6 5.5 3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7 3.3-.5 6.6-.9 10-1.4-3.3.5-6.6 1-10 1.4-93.9 14-177.3 48.2-67.9 169.9C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4 102.4-103.4 28.1-156-65.8-169.9-3.3-.4-6.7-.8-10-1.3 3.4.4 6.7.9 10 1.3 64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/groundaura" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://ko-fi.com/groundaura" target="_blank" rel="noopener" title="Ko-fi" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.351 2.715c-2.7 0-4.986.025-6.83.26C2.078 3.285 0 5.154 0 8.61c0 3.506.182 6.13 1.585 8.493 1.584 2.701 4.233 4.182 7.662 4.182h.83c4.209 0 6.494-2.234 7.637-4a9.5 9.5 0 0 0 1.091-2.338C21.792 14.688 24 12.22 24 9.208v-.415c0-3.247-2.13-5.507-5.792-5.87-1.558-.156-2.65-.208-6.857-.208m0 1.947c4.208 0 5.09.052 6.571.182 2.624.311 4.13 1.584 4.13 4v.39c0 2.156-1.792 3.844-3.87 3.844h-.935l-.156.649c-.208 1.013-.597 1.818-1.039 2.546-.909 1.428-2.545 3.064-5.922 3.064h-.805c-2.571 0-4.831-.883-6.078-3.195-1.09-2-1.298-4.155-1.298-7.506 0-2.181.857-3.402 3.012-3.714 1.533-.233 3.559-.26 6.39-.26m6.547 2.287c-.416 0-.65.234-.65.546v2.935c0 .311.234.545.65.545 1.324 0 2.051-.754 2.051-2s-.727-2.026-2.052-2.026m-10.39.182c-1.818 0-3.013 1.48-3.013 3.142 0 1.533.858 2.857 1.949 3.897.727.701 1.87 1.429 2.649 1.896a1.47 1.47 0 0 0 1.507 0c.78-.467 1.922-1.195 2.623-1.896 1.117-1.039 1.974-2.364 1.974-3.897 0-1.662-1.247-3.142-3.039-3.142-1.065 0-1.792.545-2.338 1.298-.493-.753-1.246-1.298-2.312-1.298"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://linktr.ee/groundaura" target="_blank" rel="noopener" title="Linktree" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m13.736 5.853 4.005-4.117 2.325 2.38-4.2 4.005h5.908v3.305h-5.937l4.229 4.108-2.325 2.334-5.74-5.769-5.741 5.769-2.325-2.325 4.229-4.108H2.226V8.121h5.909l-4.2-4.004 2.324-2.381 4.005 4.117V0h3.472zm-3.472 10.306h3.472V24h-3.472z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://next.nexusmods.com/profile/GroundAura" target="_blank" rel="noopener" title="Nexus Mods" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.376 0c-.993 0-2.18.686-2.907 1.182-1.676-.36-4.036-.545-6.787.635-1.365-.513-2.425-.562-3.32-.488a2.16 2.16 0 0 0-1.27.429c-.33.22-2.788 2.69-3.069 4.652C-.15 7.508.68 8.932 1.218 9.718c-.44 1.76-.2 4.572.517 6.188-.353 1.041-.713 2.089-.664 3.205.01.584.061 1.188.398 1.684C1.72 21.19 4.528 24 6.545 24c.957 0 1.93-.428 3.07-1.24 2.16.383 4.402.348 6.448-.532 2.573 1.001 4.224.625 4.84.162.587-.457 2.826-2.915 3.07-4.622.1-.672-.023-1.638-1.226-3.397a11 11 0 0 0-.501-6.455c.396-1.069.673-2.188.59-3.337-.015-.68-.221-1.167-.487-1.507-.209-.335-2.415-2.39-4.028-2.91A3.1 3.1 0 0 0 17.376 0m-.03 2.082c.65.015 2.155 1.093 3.01 1.906l.355.34c-.959-.163-2.125.428-3.26 1.55a10.3 10.3 0 0 0-1.358 1.595c-.28.384-.517.768-.753 1.285l1.18.635-3.895 1.477-1.122-4.18 1.033.547c1.358-3.102 2.524-3.973 3.232-4.416h.015a5.1 5.1 0 0 1 1.49-.724zM12 3.065a9 9 0 0 1 2.22.279 8 8 0 0 0-.42.488 8.4 8.4 0 0 0-1.8-.196 8.34 8.34 0 0 0-5.897 2.432 8 8 0 0 1-.37-.433A8.9 8.9 0 0 1 12 3.065m-7.076.305c.71-.002 1.309.127 2.2.466a9.5 9.5 0 0 0-1.713 1.337c-.327-.542-.624-1.156-.488-1.803m-.606.042c-.162.96.428 2.126 1.55 3.264.457.487 1.003.945 1.594 1.358.383.281.767.517 1.283.754l.62-1.182 1.49 3.914-4.176 1.122.546-1.033c-3.099-1.36-3.969-2.526-4.412-3.235v-.015a5.1 5.1 0 0 1-.723-1.491l-.015-.074c.015-.65 1.092-2.156 1.904-3.013Zm16.035 1.483a1.3 1.3 0 0 1 .26.015l.14.023a5 5 0 0 1-.13 1.137v.015q-.152.574-.377 1.148a9.5 9.5 0 0 0-1.346-1.776c.547-.357 1.051-.546 1.453-.562M18.43 5.8a8.9 8.9 0 0 1 2.506 6.2 9 9 0 0 1-.27 2.183 8 8 0 0 0-.488-.425A8.4 8.4 0 0 0 20.364 12 8.33 8.33 0 0 0 18 6.173a8 8 0 0 1 .429-.373M3.315 9.905q.235.222.488.425A8.4 8.4 0 0 0 3.636 12c0 2.248.887 4.286 2.327 5.788a8 8 0 0 1-.426.376A8.9 8.9 0 0 1 3.065 12a9 9 0 0 1 .25-2.095m13.988 1.541-.546 1.034c3.098 1.359 3.969 2.526 4.412 3.235v.014c.34.488.575.99.723 1.492l.014.074c-.014.65-1.092 2.156-1.903 3.013l-.34.354c.163-.96-.427-2.127-1.549-3.264a10.3 10.3 0 0 0-1.594-1.359 7 7 0 0 0-1.283-.753l-.605 1.152-1.505-3.87zm-6.006 1.684 1.121 4.18-1.033-.547c-1.357 3.102-2.523 3.973-3.231 4.416h-.015c-.487.34-.989.576-1.49.724l-.074.015c-.65-.015-2.154-1.093-3.01-1.906l-.354-.34c.959.163 2.124-.428 3.26-1.55.488-.458.945-1.004 1.358-1.595.28-.384.517-.768.753-1.285l-1.166-.635ZM3.72 16.663A9.5 9.5 0 0 0 5.086 18.5c-.697.47-1.33.665-1.777.59l-.138-.024c0-.367.038-.748.128-1.137v-.015c.11-.417.254-.835.42-1.252m14.131 1.314q.194.21.372.43A8.9 8.9 0 0 1 12 20.936a9 9 0 0 1-2.282-.296 8 8 0 0 0 .417-.487 8.34 8.34 0 0 0 7.716-2.175m.696.889c.43.666.607 1.267.534 1.698l-.023.138a5 5 0 0 1-1.136-.128h-.014a11 11 0 0 1-1.114-.366 9.5 9.5 0 0 0 1.753-1.342"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://twitch.tv/groundaura" target="_blank" rel="noopener" title="Twitch" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M359.4 103.5h-38.6v109.7h38.6zm-106.2-.5h-38.6v109.8h38.6zM89 0-7.5 91.4v329.2h115.8V512l96.5-91.4h77.3L455.9 256V0zm328.3 237.8-77.2 73.1h-77.2l-67.6 64v-64h-86.9V36.6h308.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://twitter.com/groundaura" target="_blank" rel="noopener" title="Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/@groundaura" target="_blank" rel="noopener" title="YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>

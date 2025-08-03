@@ -1,0 +1,11 @@
+.md-typeset [data-clipboard-text] {
+  cursor: pointer;
+}
+
+.md-typeset [data-clipboard-text]:hover {
+  background-color: var(--md-accent-fg-color) !important;
+}
+
+.md-typeset [title] {
+  cursor: help;
+}
